@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # environment variables
-OPENSTACK_BRANCH=stable/havana
+OPENSTACK_BRANCH=master
 OPENSTACK_ADM_PASSWORD=devstack
 
 # determine own script path

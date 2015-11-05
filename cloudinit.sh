@@ -14,7 +14,7 @@ echo -e "$OS_HOST_IP\t$OS_HOST_NAME" >> /etc/hosts
 apt-get install -y git
 
 # download install script
-git clone https://github.com/TelekomLabs/vagrant-devstack.git
+git clone https://github.com/aswadrangnekar/devstack-vagrant.git
 cd vagrant-devstack && ./devstack.sh
 
 
